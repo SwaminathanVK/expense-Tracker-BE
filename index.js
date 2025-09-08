@@ -17,7 +17,7 @@ app.use(express.json());
 
 // enable CORS for frontend
 app.use(cors({
-  origin: "http://localhost:3000", // React frontend URL
+  origin: "*", // React frontend URL
   credentials: true
 }));
 
